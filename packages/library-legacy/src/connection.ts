@@ -3025,9 +3025,7 @@ export type ConnectionConfig = {
 };
 
 /** @internal */
-const COMMON_HTTP_HEADERS = {
-  'solana-client': `js/${process.env.npm_package_version ?? 'UNKNOWN'}`,
-};
+const COMMON_HTTP_HEADERS = {};
 
 /**
  * A connection to a fullnode JSON RPC endpoint
